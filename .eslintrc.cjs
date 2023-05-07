@@ -13,5 +13,6 @@ module.exports = {
     sourceType: 'module',
     project: ['./tsconfig.json']
   },
-  root: true
+  root: true,
+  ignorePatterns: ['postcss.config.cjs']
 };
